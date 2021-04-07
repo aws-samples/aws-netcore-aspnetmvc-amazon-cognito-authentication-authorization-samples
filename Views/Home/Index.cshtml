@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<div>
+    <p>Click <a asp-area="" asp-controller="Products" asp-action="Index">Products</a> link to simulate login (authentication and authorization) using amazon cognito username and password</p>
+</div>
+
+<div>
+    <p>Click  <a asp-area="" asp-controller="Admin" asp-action="Index">Admin</a> link to simulate login using amazon cognito with admin policy based authorization using cognito groups (group:admin)</p>
+</div>
+
+
+@*<div>
+    <p>Click  <a asp-area="" asp-controller="Admin2" asp-action="Index">Admin</a> link to simulate login using amazon cognito with admin role based authorization using cognito groups (group:admin)</p>
+</div>*@
