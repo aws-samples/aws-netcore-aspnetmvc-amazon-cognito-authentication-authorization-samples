@@ -291,7 +291,7 @@ Microsot.AspNetCore.Authentication.OpenIdConnect
          "Default":"Warning"
       }
    },
-   "AllowedHosts":"\\*",
+   "AllowedHosts":"*",
    "Authentication":{
     "Cognito": {
       "ClientId": "\\<app client id from AWS Cognito\\>",
